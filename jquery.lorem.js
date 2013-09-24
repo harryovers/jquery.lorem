@@ -20,7 +20,7 @@
 //CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 (function($){
-    $.fn.lorem(){
-        $(this).html('rem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin.');
+    $.fn.lorem=function(){
+        $(this).html('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin.');
     }
 }(jQuery));
